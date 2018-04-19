@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FADF413BE4DD2715E49F4CD /* libPods-BeeTagViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4FF4F0F967AFD09354FDA6 /* libPods-BeeTagViewDemo.a */; };
+		5C8CECCD20887BE10068418B /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8CECCA20887BE10068418B /* UICollectionViewLeftAlignedLayout.m */; };
+		5C8CECCE20887BE10068418B /* BeeTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8CECCB20887BE10068418B /* BeeTagView.m */; };
+		5C8CECCF20887BE10068418B /* TheBeeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8CECCC20887BE10068418B /* TheBeeCollectionViewCell.m */; };
+		5C8CECD220887C100068418B /* BeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8CECD120887C100068418B /* BeeViewController.m */; };
+		5CE68A1B208844310088B1F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE68A1A208844310088B1F9 /* AppDelegate.m */; };
+		5CE68A1E208844310088B1F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE68A1D208844310088B1F9 /* ViewController.m */; };
+		5CE68A21208844310088B1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE68A1F208844310088B1F9 /* Main.storyboard */; };
+		5CE68A23208844330088B1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE68A22208844330088B1F9 /* Assets.xcassets */; };
+		5CE68A26208844330088B1F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE68A24208844330088B1F9 /* LaunchScreen.storyboard */; };
+		5CE68A29208844330088B1F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE68A28208844330088B1F9 /* main.m */; };
+		5CE68A33208844330088B1F9 /* BeeTagViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE68A32208844330088B1F9 /* BeeTagViewDemoTests.m */; };
+		5CE68A3E208844330088B1F9 /* BeeTagViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE68A3D208844330088B1F9 /* BeeTagViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CE68A2F208844330088B1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE68A0E208844310088B1F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CE68A15208844310088B1F9;
+			remoteInfo = BeeTagViewDemo;
+		};
+		5CE68A3A208844330088B1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE68A0E208844310088B1F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CE68A15208844310088B1F9;
+			remoteInfo = BeeTagViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C8CECC720887BE10068418B /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		5C8CECC820887BE10068418B /* TheBeeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheBeeCollectionViewCell.h; sourceTree = "<group>"; };
+		5C8CECC920887BE10068418B /* BeeTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeTagView.h; sourceTree = "<group>"; };
+		5C8CECCA20887BE10068418B /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		5C8CECCB20887BE10068418B /* BeeTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeTagView.m; sourceTree = "<group>"; };
+		5C8CECCC20887BE10068418B /* TheBeeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheBeeCollectionViewCell.m; sourceTree = "<group>"; };
+		5C8CECD020887C100068418B /* BeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeViewController.h; sourceTree = "<group>"; };
+		5C8CECD120887C100068418B /* BeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeViewController.m; sourceTree = "<group>"; };
+		5CE68A16208844310088B1F9 /* BeeTagViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeTagViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE68A19208844310088B1F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CE68A1A208844310088B1F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CE68A1C208844310088B1F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CE68A1D208844310088B1F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CE68A20208844310088B1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CE68A22208844330088B1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CE68A25208844330088B1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CE68A27208844330088B1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE68A28208844330088B1F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CE68A2E208844330088B1F9 /* BeeTagViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeTagViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE68A32208844330088B1F9 /* BeeTagViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeTagViewDemoTests.m; sourceTree = "<group>"; };
+		5CE68A34208844330088B1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE68A39208844330088B1F9 /* BeeTagViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeTagViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE68A3D208844330088B1F9 /* BeeTagViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeTagViewDemoUITests.m; sourceTree = "<group>"; };
+		5CE68A3F208844330088B1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627FD1F37576989D820E2C57 /* Pods-BeeTagViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeTagViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeeTagViewDemo/Pods-BeeTagViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ABA6B8065A53E18A51455EA6 /* Pods-BeeTagViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeTagViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeeTagViewDemo/Pods-BeeTagViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD4FF4F0F967AFD09354FDA6 /* libPods-BeeTagViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeeTagViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CE68A13208844310088B1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FADF413BE4DD2715E49F4CD /* libPods-BeeTagViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE68A2B208844330088B1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE68A36208844330088B1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C8CECC620887BE10068418B /* BeeTagView */ = {
+			isa = PBXGroup;
+			children = (
+				5C8CECC720887BE10068418B /* UICollectionViewLeftAlignedLayout.h */,
+				5C8CECCA20887BE10068418B /* UICollectionViewLeftAlignedLayout.m */,
+				5C8CECC820887BE10068418B /* TheBeeCollectionViewCell.h */,
+				5C8CECCC20887BE10068418B /* TheBeeCollectionViewCell.m */,
+				5C8CECC920887BE10068418B /* BeeTagView.h */,
+				5C8CECCB20887BE10068418B /* BeeTagView.m */,
+			);
+			path = BeeTagView;
+			sourceTree = "<group>";
+		};
+		5CE68A0D208844310088B1F9 = {
+			isa = PBXGroup;
+			children = (
+				5CE68A18208844310088B1F9 /* BeeTagViewDemo */,
+				5CE68A31208844330088B1F9 /* BeeTagViewDemoTests */,
+				5CE68A3C208844330088B1F9 /* BeeTagViewDemoUITests */,
+				5CE68A17208844310088B1F9 /* Products */,
+				682319BE8F0CEFC3DC891AEB /* Pods */,
+				87FC65C01272D63AA2B863DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CE68A17208844310088B1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE68A16208844310088B1F9 /* BeeTagViewDemo.app */,
+				5CE68A2E208844330088B1F9 /* BeeTagViewDemoTests.xctest */,
+				5CE68A39208844330088B1F9 /* BeeTagViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE68A18208844310088B1F9 /* BeeTagViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C8CECC620887BE10068418B /* BeeTagView */,
+				5CE68A19208844310088B1F9 /* AppDelegate.h */,
+				5CE68A1A208844310088B1F9 /* AppDelegate.m */,
+				5C8CECD020887C100068418B /* BeeViewController.h */,
+				5C8CECD120887C100068418B /* BeeViewController.m */,
+				5CE68A1C208844310088B1F9 /* ViewController.h */,
+				5CE68A1D208844310088B1F9 /* ViewController.m */,
+				5CE68A1F208844310088B1F9 /* Main.storyboard */,
+				5CE68A22208844330088B1F9 /* Assets.xcassets */,
+				5CE68A24208844330088B1F9 /* LaunchScreen.storyboard */,
+				5CE68A27208844330088B1F9 /* Info.plist */,
+				5CE68A28208844330088B1F9 /* main.m */,
+			);
+			path = BeeTagViewDemo;
+			sourceTree = "<group>";
+		};
+		5CE68A31208844330088B1F9 /* BeeTagViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CE68A32208844330088B1F9 /* BeeTagViewDemoTests.m */,
+				5CE68A34208844330088B1F9 /* Info.plist */,
+			);
+			path = BeeTagViewDemoTests;
+			sourceTree = "<group>";
+		};
+		5CE68A3C208844330088B1F9 /* BeeTagViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CE68A3D208844330088B1F9 /* BeeTagViewDemoUITests.m */,
+				5CE68A3F208844330088B1F9 /* Info.plist */,
+			);
+			path = BeeTagViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		682319BE8F0CEFC3DC891AEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6B8065A53E18A51455EA6 /* Pods-BeeTagViewDemo.debug.xcconfig */,
+				627FD1F37576989D820E2C57 /* Pods-BeeTagViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87FC65C01272D63AA2B863DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FF4F0F967AFD09354FDA6 /* libPods-BeeTagViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CE68A15208844310088B1F9 /* BeeTagViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE68A42208844330088B1F9 /* Build configuration list for PBXNativeTarget "BeeTagViewDemo" */;
+			buildPhases = (
+				8C376A80891489C08C085ED4 /* [CP] Check Pods Manifest.lock */,
+				5CE68A12208844310088B1F9 /* Sources */,
+				5CE68A13208844310088B1F9 /* Frameworks */,
+				5CE68A14208844310088B1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeTagViewDemo;
+			productName = BeeTagViewDemo;
+			productReference = 5CE68A16208844310088B1F9 /* BeeTagViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CE68A2D208844330088B1F9 /* BeeTagViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE68A45208844330088B1F9 /* Build configuration list for PBXNativeTarget "BeeTagViewDemoTests" */;
+			buildPhases = (
+				5CE68A2A208844330088B1F9 /* Sources */,
+				5CE68A2B208844330088B1F9 /* Frameworks */,
+				5CE68A2C208844330088B1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE68A30208844330088B1F9 /* PBXTargetDependency */,
+			);
+			name = BeeTagViewDemoTests;
+			productName = BeeTagViewDemoTests;
+			productReference = 5CE68A2E208844330088B1F9 /* BeeTagViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CE68A38208844330088B1F9 /* BeeTagViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE68A48208844330088B1F9 /* Build configuration list for PBXNativeTarget "BeeTagViewDemoUITests" */;
+			buildPhases = (
+				5CE68A35208844330088B1F9 /* Sources */,
+				5CE68A36208844330088B1F9 /* Frameworks */,
+				5CE68A37208844330088B1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE68A3B208844330088B1F9 /* PBXTargetDependency */,
+			);
+			name = BeeTagViewDemoUITests;
+			productName = BeeTagViewDemoUITests;
+			productReference = 5CE68A39208844330088B1F9 /* BeeTagViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CE68A0E208844310088B1F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Ji_YuFeng;
+				TargetAttributes = {
+					5CE68A15208844310088B1F9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					5CE68A2D208844330088B1F9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5CE68A15208844310088B1F9;
+					};
+					5CE68A38208844330088B1F9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5CE68A15208844310088B1F9;
+					};
+				};
+			};
+			buildConfigurationList = 5CE68A11208844310088B1F9 /* Build configuration list for PBXProject "BeeTagViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CE68A0D208844310088B1F9;
+			productRefGroup = 5CE68A17208844310088B1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CE68A15208844310088B1F9 /* BeeTagViewDemo */,
+				5CE68A2D208844330088B1F9 /* BeeTagViewDemoTests */,
+				5CE68A38208844330088B1F9 /* BeeTagViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CE68A14208844310088B1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE68A26208844330088B1F9 /* LaunchScreen.storyboard in Resources */,
+				5CE68A23208844330088B1F9 /* Assets.xcassets in Resources */,
+				5CE68A21208844310088B1F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE68A2C208844330088B1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE68A37208844330088B1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C376A80891489C08C085ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeeTagViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CE68A12208844310088B1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8CECCD20887BE10068418B /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				5C8CECCF20887BE10068418B /* TheBeeCollectionViewCell.m in Sources */,
+				5CE68A1E208844310088B1F9 /* ViewController.m in Sources */,
+				5C8CECCE20887BE10068418B /* BeeTagView.m in Sources */,
+				5CE68A29208844330088B1F9 /* main.m in Sources */,
+				5C8CECD220887C100068418B /* BeeViewController.m in Sources */,
+				5CE68A1B208844310088B1F9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE68A2A208844330088B1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE68A33208844330088B1F9 /* BeeTagViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE68A35208844330088B1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE68A3E208844330088B1F9 /* BeeTagViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CE68A30208844330088B1F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CE68A15208844310088B1F9 /* BeeTagViewDemo */;
+			targetProxy = 5CE68A2F208844330088B1F9 /* PBXContainerItemProxy */;
+		};
+		5CE68A3B208844330088B1F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CE68A15208844310088B1F9 /* BeeTagViewDemo */;
+			targetProxy = 5CE68A3A208844330088B1F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CE68A1F208844310088B1F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE68A20208844310088B1F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE68A24208844330088B1F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE68A25208844330088B1F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CE68A40208844330088B1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CE68A41208844330088B1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CE68A43208844330088B1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA6B8065A53E18A51455EA6 /* Pods-BeeTagViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeTagViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ji-YuFeng.BeeTagViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CE68A44208844330088B1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627FD1F37576989D820E2C57 /* Pods-BeeTagViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeTagViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ji-YuFeng.BeeTagViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CE68A46208844330088B1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeTagViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ji-YuFeng.BeeTagViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeTagViewDemo.app/BeeTagViewDemo";
+			};
+			name = Debug;
+		};
+		5CE68A47208844330088B1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeTagViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ji-YuFeng.BeeTagViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeTagViewDemo.app/BeeTagViewDemo";
+			};
+			name = Release;
+		};
+		5CE68A49208844330088B1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeTagViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ji-YuFeng.BeeTagViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeTagViewDemo;
+			};
+			name = Debug;
+		};
+		5CE68A4A208844330088B1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeTagViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ji-YuFeng.BeeTagViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeTagViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CE68A11208844310088B1F9 /* Build configuration list for PBXProject "BeeTagViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE68A40208844330088B1F9 /* Debug */,
+				5CE68A41208844330088B1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE68A42208844330088B1F9 /* Build configuration list for PBXNativeTarget "BeeTagViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE68A43208844330088B1F9 /* Debug */,
+				5CE68A44208844330088B1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE68A45208844330088B1F9 /* Build configuration list for PBXNativeTarget "BeeTagViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE68A46208844330088B1F9 /* Debug */,
+				5CE68A47208844330088B1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE68A48208844330088B1F9 /* Build configuration list for PBXNativeTarget "BeeTagViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE68A49208844330088B1F9 /* Debug */,
+				5CE68A4A208844330088B1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CE68A0E208844310088B1F9 /* Project object */;
+}
